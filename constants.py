@@ -1,2 +1,15 @@
+import pygame
+
 SCREEN_WIDTH = 1280
 SCREEN_HEIGHT = 720
+
+LINE_WIDTH = 2
+
+PLAYER_RADIUS = 20
+PLAYER_TURN_SPEED = 300
+PLAYER_SPEED = 200
+
+LEFT = pygame.K_a
+RIGHT = pygame.K_d
+UP = pygame.K_w
+DOWN = pygame.K_s
